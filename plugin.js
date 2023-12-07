@@ -107,6 +107,7 @@ export class MonacoPlugin {
           value: initialCode,
           language: language,
         });
+        codeBlock.activeEditor = this.activeEditor;
       }
     }
   }
